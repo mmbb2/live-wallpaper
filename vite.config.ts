@@ -6,6 +6,7 @@ import { viteSingleFile } from "vite-plugin-singlefile";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/live-wallpaper/",
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
