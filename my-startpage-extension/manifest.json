@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "My Start Page",
+  "version": "1.0",
+  "description": "Custom homepage and new tab page from my React app",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "chrome_settings_overrides": {
+    "homepage": "newtab.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "applications": {
+    "gecko": {
+      "id": "bakumax125@gmail.com"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "bakumax125@gmail.com",
+"data_collection_permissions": {
+  "required": ["none"]
+}
+    }
+  }
+}
